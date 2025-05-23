@@ -16,7 +16,7 @@ public class InformationDistance {
      * when compressed with raw-deflate (no zlib header) at BEST_COMPRESSION level,
      * optionally seeded with a preset dictionary.
      *
-     * @param s    the input string to compress; will be converted to lowercase UTF-8 bytes
+     * @param s    the input string to compress; will be converted to UTF-8 bytes
      * @param dict an optional preset dictionary as a byte array, or {@code null} for no dictionary
      * @return the number of bytes in the compressed output
      * @throws RuntimeException if an {@link IOException} occurs during compression
